@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Up Coming Events</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favico.png">
+  </head>
+<body>
+    <header class="d-flex flex-row justify-content-between align-items-center bg-dark headerSize">
+          <img src="./assets/images/logoAmazingEvents.png" alt="A EVENTS" class="ms-5 logoSize img-fluid">
+          <nav class="navbar navbar-expand-lg colorLetras">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon colorLetras"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Upcoming Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./past.html">Past Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./stats.html">Stats</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+      <div class="contenedorTitulo">
+        <h1>Up Coming Events</h1>
+      </div>
+      <div class="searchBar">
+        <form action="" class="formBar">
+          <fieldset class="formBarField">
+            <label class="m-3">
+              <input type="checkBox">
+              Category
+            </label> 
+            <label class="m-3">
+              <input type="checkBox">
+              Category
+            </label>
+            <label class="m-3">
+              <input type="checkBox">
+              Category
+            </label>
+            <label class="m-3">
+              <input type="checkBox">
+            Category
+            </label>
+            <label class="m-3">
+              <input type="checkBox">
+              Category
+            </label>
+          </fieldset>  
+        <fieldset class="formBarField">
+            <label>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </label>
+            <label>
+              <button class="boton" type="submit"><i class="bi bi-search"></i></button>
+            </label>
+          </fieldset>
+        </form>
+      </div>
+      <div class="cards" id="cards">
+        <!-- <div class="card m-2 d-flex flex-column justify-content-center align-items-center" style="width: 18rem; height: 22rem;">
+          <img src="https://i.postimg.cc/ZmD3Xf57/Korean-style.jpg" class="card-img-top m-3 " style="width: 220px; height: 130px;" alt="...">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title">Korean style</h5>
+            <p class="card-text" style="text-align: justify;">Enjoy your favourite dishes, from different countries, in a unique event for the whole family.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #D90368;">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-2 d-flex flex-column justify-content-center align-items-center" style="width: 18rem; height: 22rem;" >
+          <img src="https://i.postimg.cc/c4C2zXm8/Parisian-Museum.jpg" class="card-img-top m-3" style="width: 220px; height: 130px;"alt="...">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title">Parisian Museum</h5>
+            <p class="card-text" style="text-align: justify;">A unique tour in the city of lights, get to know one of the most iconic places.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #D90368;">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-2 d-flex flex-column justify-content-center align-items-center" style="width: 18rem; height: 22rem;">
+          <img src="https://i.postimg.cc/RZ9fH4Pr/halloween.jpg" class="card-img-top m-3" style="width: 220px; height: 130px;" alt="...">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title">Halloween Night</h5>
+            <p class="card-text" style="text-align: justify;">Come with your scariest costume and win incredible prizes.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #D90368;">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-2 d-flex flex-column justify-content-center align-items-center" style="width: 18rem; height: 22rem;">
+          <img src="https://i.postimg.cc/PrMJ0ZMc/Metallica-in-concert.jpg" class="card-img-top m-3" style="width: 220px; height: 130px;" alt="...">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title">Metallica in concert</h5>
+            <p class="card-text" style="text-align: justify;">The only concert of the most emblematic band in the world.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #D90368;">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-2 d-flex flex-column justify-content-center align-items-center" style="width: 18rem; height: 22rem;">
+          <img src="https://i.postimg.cc/zv67r65z/15kny.jpg" class="card-img-top m-3" style="width: 220px; height: 130px;" alt="...">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title">15K NY</h5>
+            <p class="card-text" style="text-align: justify;">We'll be raising funds for hospitals and medical care in this unique event held in The Big Apple.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #D90368;">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-2 d-flex flex-column justify-content-center align-items-center" style="width: 18rem; height: 22rem;">
+          <img src="https://i.postimg.cc/Sst763n6/book1.jpg" class="card-img-top m-3" style="width: 220px; height: 130px;" alt="...">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title">School's book fair</h5>
+            <p class="card-text" style="text-align: justify;">Bring your unused school book and take the one you need.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #D90368;">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-2 d-flex flex-column justify-content-center align-items-center"" style="width: 18rem; height: 22rem;">
+          <img src="https://i.postimg.cc/T3C92KTN/scale.jpg" class="card-img-top m-3" style="width: 220px; height: 130px;" alt="...">
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title">Avengers</h5>
+            <p class="card-text" style="text-align: justify;">Marvel's Avengers Premier in 3d, the start of an epic saga with your favourite superheroes.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #D90368;">Go somewhere</a>
+          </div> -->
+        </div>
+        
+      <footer>
+        <div class="iconosSocialMedia">
+          <i class="bi bi-instagram red"></i>
+          <i class="bi bi-facebook red"></i>
+          <i class="bi bi-whatsapp red"></i>
+      </div>
+      <h2>Cohort</h2>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <script src="./datos.js"> </script>
+      <script src="./main.js"></script>
+</body>
+</html>
