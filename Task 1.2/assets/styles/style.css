@@ -68,11 +68,13 @@ h1{
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
-.cards{
+/* #cards{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin:2rem;
-}
+    
+} */
 .cardImages{
     width: 1px;
 }
